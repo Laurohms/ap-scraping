@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Laurohms/ap-scraper/internal/scraper"
+	"github.com/Laurohms/go-scraper/internal/scraper"
 )
 
 func main() {

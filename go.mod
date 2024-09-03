@@ -1,4 +1,4 @@
-module github.com/Laurohms/ap-scraper
+module github.com/Laurohms/go-scraper
 
 go 1.23.0
 

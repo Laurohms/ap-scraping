@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Laurohms/ap-scraper/internal/models"
-	"github.com/Laurohms/ap-scraper/internal/processors"
+	"github.com/Laurohms/go-scraper/internal/models"
+	"github.com/Laurohms/go-scraper/internal/utils"
 	"github.com/PuerkitoBio/goquery"
 	"github.com/gocolly/colly/v2"
 	"github.com/joho/godotenv"
@@ -58,11 +58,11 @@ func Start() {
 					if err != nil {
 						log.Println("date str to time parse fail:", err)
 					}
-					value, err := processors.StrToFloat(valueStr)
+					value, err := utils.StrToFloat(valueStr)
 					if err != nil {
 						log.Printf("fail parsing str to float for value: %v", err)
 					}
-					balance, err := processors.StrToFloat(balanceStr)
+					balance, err := utils.StrToFloat(balanceStr)
 					if err != nil {
 						log.Printf("fail parsing str to float for balance: %v", err)
 					}

@@ -1,9 +1,9 @@
-package processor_test
+package utils_test
 
 import (
 	"testing"
 
-	"github.com/Laurohms/ap-scraper/internal/processors"
+	"github.com/Laurohms/go-scraper/internal/utils"
 )
 
 func TestStrToFloat(t *testing.T) {
@@ -26,7 +26,7 @@ func TestStrToFloat(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			got, err := processors.StrToFloat(tt.input)
+			got, err := utils.StrToFloat(tt.input)
 
 			if (err != nil) != tt.hasError {
 				t.Errorf("StrToFloat(%q) error = %v, expected error = %v", tt.input, err, tt.hasError)
