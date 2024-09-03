@@ -1,6 +1,6 @@
 # Web Scraping para Análise de Movimentações Bancárias
 
-Este projeto realiza o web scraping das movimentações bancárias da empresa da qual trabalho. O objetivo é coletar dados das movimentações bancárias e processá-los para obter um melhor entendimento e análise das finanças.
+Este projeto realiza o web scraping das movimentações bancárias da empresa na qual trabalho. O objetivo é coletar dados das movimentações bancárias e processá-los para obter um melhor entendimento e análise das finanças.
 
 ## Descrição
 O scraper coleta dados de uma conta bancária administrativa e transforma as informações das movimentações em um formato JSON bem estruturado. Esses dados podem ser utilizados para análises financeiras e relatórios.
